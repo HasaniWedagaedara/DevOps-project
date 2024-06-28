@@ -1,0 +1,10 @@
+to create packge.json file- npm init
+to create the server - use express
+it is in server.js file
+connect backend with database- we use mongoose
+for that - npm i express mongoose cors
+
+Telephone numbers can have leading zeros which are significant, and if stored as a numeric type, these zeros would be lost
+Formatting: Telephone numbers often include formatting characters such as hyphens, spaces, or parentheses which wouldn't be represented in a numeric type.
+International Numbers: Telephone numbers can include the + character for international dialing, which can't be represented in a numeric type.
+Length: Telephone numbers can be longer than typical numeric types can safely handle.
